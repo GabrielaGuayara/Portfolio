@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/78fe8913d1.js" crossorigin="anonymous"></script>
+    <script src="portafolio.js"></script>
+</head>
+<body>
+<div id="header">
+    <video autoplay muted loop id="myVideo">
+        <source src="img/background.mp4" type="video/mp4">
+    </video>
+
+    <div  class="container">
+        <div id='nav'>
+            <nav>
+            <img src="" alt="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+        </div>
+        <img src="img/photo1.jpeg" alt="photo1" id="photo" class="minfo">
+        <div class="header-text minfo" >
+            <h1>Hi! I'm <span> Gabriel Guayara</span> <br>from Ecuador</h1>
+        </div>
+        
+    </div>
+</div>
+
+
+<!--Initiating the creating of the about section-->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="img/photo2.jpg" alt="photo2">
+            </div>
+            <div class="about-col-2">
+                    <h1 class="sub">About Me</h1><br>
+                    <p id="aboutme">I am from Ecuador. I moved to the United States in November 2020. When I moved to this country, I decided to pursue my dream job as a Software Developer. I have always been passionate about solving problems using logic and building things that make people’s lives easier with technology. In 2021, I participated in a boot camp called PerScholas, where I learned software programming technologies, such as HTML, CSS, Javascript, React.js, and MySQL. I built some projects that can be found in my GitHub account. <br><br>
+                    
+                    In 2022, I enrolled at Borough of Manhattan Community College in order to get a Computer Science degree. Currently, I am a sophomore who is learning about back-end languages, such as C++ and Python, and data structures, which I try to implement in my new projects. I'm really excited to face new challenges and I am open to opportunities that allow me to grow personally and professionally
+                    </p>
+                    <br>
+                    <div class="titles">
+                        <p class="links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="links"onclick="opentab('experience')">Experience</p>
+                        <p class="links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Software Skills</span><br>HTML5, CSS3, JavaScript, C++, SQL, React.js, REST APIs, GitHub, Postman. </li>
+                            <li><span>Integrated Development Environment</span><br>Visual Studio Code, Elipse</li>
+                            <li><span>MS Office</span><br>Word, Excel, Outlook, PowerPoint, OneNote</li>
+                            <li><span>Google Drive</span><br> Docs, Sheets, Slides, Form</li>
+                            
+                        </ul>
+                    </div>
+                    <div class="contents" id="experience">
+                        <ul>
+                            <li><span>Black Studies Across the America, BMCC</span><br>Student Researcher</li>
+                            <li><span>Estafeta Mexicana</span><br>DRetail Customer Service</li>
+                            <li><span>New York Center for Interpersonal Development</span><br>Office Assistant</li>
+                                
+                        </ul>
+                    </div>
+                    <div class="contents" id="education">
+                        <ul>
+                            <li><span>Borough of Manhattan Community College (BMCC) </span><br>Associate in Science Degree; Major: Computer Science </li>
+                            <li><span>Per Scholas Remote Learning </span><br>Software Engineering Training Certificate</li>
+                            <li><span>Dr. Enrique Noboa High School</span><br>Computer Services and Application Technician</li>  
+                        </ul>
+                    </div>
+            </div>
+            <a href="img/resume.pdf" download="" class="btn">Dowland Resume</a>
+        </div>
+    </div>
+</div> 
+
+<!-----------Projects-->
+<div id="projects">
+    <div class="container">
+        <h1 class="sub-tittle">My projects</h1>
+        <div class="work-list">
+            <div class="work">
+                
+                <img src="img/website1.png" alt="website1"></a>
+                <div class="layer">
+                    <h3 class="descrp">The Big Apple Project</h3>
+                    <p class="descrp">
+                        The Big Apple is a website created to provide helpful information about education, healthcare, and employment in New York City. This website aims to helping immigrants to get established in New York City. The website has been built and developed  using HTML5, CSS to apply design and Javascript to make it dynamic. 
+                    </p>
+                    <a href="https://gabrielaguayara.github.io/Project-Module1/HTML/index.html" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="img/website2.png" alt="website2">
+                <div class="layer">
+                    <h3 class="descrp">ToDo List App</h3>
+                    <p class="descrp">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odit vitae sint nihil! Repellat dolores ex cupiditate deserunt sint optio nihil non reiciendis expedita dicta. Modi dignissimos fugit animi rerum optio?
+                    </p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="img/website3.png" alt="website3">
+                <div class="layer">
+                    <h3 class="descrp">Covid-19 Tracking App</h3>
+                    <p class="descrp">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odit vitae sint nihil! Repellat dolores ex cupiditate deserunt sint optio nihil non reiciendis expedita dicta. Modi dignissimos fugit animi rerum optio?
+                    </p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="https://github.com/GabrielaGuayara" target="_blank" class="btn">Visit my GitHub</a>
+    </div>
+    <br> <br>
+
+</div>
+
+<!--CONTACT-->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h2 class="sub-title">Contact Me</h2>
+                <p class="info"><i class="fa-solid fa-envelope"></i> gabriela.guayara@gmail</p>   
+                <p class="info"><i class="fa-solid fa-phone"></i> (929) 293-6793</p>            
+            </div>
+            <div class="contanct-right">
+                <form name='submit-to-google-sheet'>
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" row="8" placeholder="Your message"></textarea>
+                    <button type="submit" class="btn">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="social-icons">
+            <a href="https://www.linkedin.com/in/gabriela-guayara/" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="https://www.facebook.com/gabriela.guayara/" target="_blank"><i class="fab fa-facebook"></i></a>
+            <a href="https://github.com/GabrielaGuayara" target="_blank"><i class="fa-brands fa-github"></i></i></a>
+            
+        </div>
+    </div>
+</div>
+
+  --->
+</body>
+</html>
