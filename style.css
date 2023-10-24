@@ -232,7 +232,7 @@ nav ul li a::after{
     }
     .work-list{
         display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+        grid-template-columns: repeat(auto-fit);
         grid-gap: 40PX;
         margin-top: 50px
     }
@@ -243,11 +243,14 @@ nav ul li a::after{
     }
 
     .work img{
-        width: 100%;
+        width: 80%;
         height: 400px;
         border-radius: 10px;
         display: block;
         transition: transform 0.5s;
+    }
+    .timg{
+        width: 100%;
     }
     .layer{
         width: 100%;
