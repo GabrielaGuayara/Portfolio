@@ -104,7 +104,7 @@ nav ul li a::after{
 }
 
 .photo-column {
-    margin-top: 50px;
+    margin-top: 70px;
     width: 35%; 
     display: flex;
     justify-content: center;
@@ -112,7 +112,7 @@ nav ul li a::after{
 }
 
 #photo {
-    margin-top: 35px;
+    margin-top: 55px;
     border-radius: 50%;
     max-width: 100%; 
     height: auto;
