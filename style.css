@@ -231,7 +231,7 @@ nav ul li a::after{
     }
     .work-list{
         display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+        grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
         grid-gap: 40PX;
         margin-top: 50px
     }
