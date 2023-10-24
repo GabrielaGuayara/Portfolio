@@ -10,40 +10,38 @@
     <script src="portafolio.js"></script>
 </head>
 <body>
-<div id="header">
-    <video autoplay muted loop id="myVideo">
-        <source src="img/background.mp4" type="video/mp4">
-    </video>
+    <div id="header">
+        <video autoplay muted loop id="myVideo">
+            <source src="img/background.mp4" type="video/mp4"> <!-- Ensure this path is correct -->
+        </video>
 
-    <div  class="container">
-        <div id='nav'>
-            <nav>
-            <ul id="sidemenu">
-                <li><a href="#header">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
-                <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
-            </ul>
-            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
-            </nav>
-        </div>
-    </div>
-    <div class="container">
-        <div class="header-column">
-            <div class="header-text minfo">
-                <h1>Hello I'm <br><span> Gabriel Guayara</span></h1>
-                <p id="parag_header"> I am Aspiring Software Engineer who currenlty work as Academic Mentor and NSLS Group Leader at CUNY Borough of Manhattan Community College</p>
+        <div class="container">
+            <div id='nav'>
+                <nav>
+                    <ul id="sidemenu">
+                        <li><a href="#header">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                    </ul>
+                    <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+                </nav>
             </div>
         </div>
-        <div class="photo-column">
-            <img src="img/photo1.jpeg" alt="photo1" id="photo" class="minfo">
+        <div class="container">
+            <div class="header-column">
+                <div class="header-text minfo">
+                    <h1>Hello I'm <br><span> Gabriel Guayara</span></h1>
+                    <p id="parag_header"> I am an Aspiring Software Engineer currently working as an Academic Mentor and NSLS Group Leader at CUNY Borough of Manhattan Community College</p>
+                </div>
+            </div>
+            <div class="photo-column">
+                <img src="img/photo1.jpeg" alt="photo1" id="photo" class="minfo"> 
+            </div>
         </div>
-    </div>       
-</div>
-
-
-<!--Initiating the creating of the about section-->
+    </div>
+<!--ABOUT SECTION-->
 <div id="about">
     <h1 class="sub-title">About Me</h1><br>
     <div class="container-about">
@@ -106,7 +104,7 @@
     </div>
 
 
-<!-----------PROJECTS-->
+<!-----------PROJECTS---------------------------------------------->
 <div id="projects">
     <h1 class="sub-title" style="margin-left: 40px;">My projects</h1>
     <div class="container">
@@ -138,7 +136,7 @@
     <br> <br>
 
 </div>
-<!--TEAM PROJECT-->
+<!--TEAM PROJECT--------------------------------------------------------->
 <div id="projects">
     <h1 class="sub-title" style="margin-left: 40px;">My Team Projects</h1>
     <div class="container">
@@ -167,9 +165,9 @@
     </div>
 </div>
    
-<!--TEAM PROJECT-->
+<!--TEAM PROJECT---------------------------->
 
-<!--CONTACT-->
+<!--CONTACT--------------------------------->
 <div id="contact">
     <div class="container">
         <div class="row">
@@ -198,7 +196,6 @@
         </div>
     </div>
 </div>
-
-  ---!>
+<!------------------------------------------->
 </body>
 </html>
