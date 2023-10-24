@@ -104,6 +104,7 @@ nav ul li a::after{
 }
 
 .photo-column {
+    margin-top: 50px;
     width: 35%; 
     display: flex;
     justify-content: center;
@@ -126,93 +127,93 @@ nav ul li a::after{
 }
 
 .header-text {
-    margin-top: 30px;
+    margin-top: 50px;
     font-size: 60px;
     color: white;
 }
-    .header-text h1{
+.header-text h1{
         font-size: 50px;
         font-weight: bold;
         margin-top: 20px;
         text-align: center;
     }
-    .header-text h1 span{
+.header-text h1 span{
         color: rgb(237, 229, 11);
-    }
+}
 
-    #about{
-        padding: 10px 0;
-        margin-left: 40px;
-        color:#10100f;
-    }
-    .container-about{
-        margin-right: 40px;
-    }
-    .row{
-        display: flex;
-        justify-content: space-between;
-        flex-wrap: wrap
-    }
-    .about-col-1{
-        max-width: 100%;
-        border-radius: 5px;
-        text-align: justify;
-    }
+#about{
+    padding: 10px 0;
+    margin-left: 40px;
+    color:#10100f;
+}
+.container-about{
+    margin-right: 40px;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap
+}
+.about-col-1{
+    max-width: 100%;
+    border-radius: 5px;
+    text-align: justify;
+}
 
-    #aboutme{
-        font-size: 25px;
-    }
-    .container {
-        display: flex;
-        align-items: flex-start;
-    }
-    
-    .link-container {
-        flex: 1;
-    }
-    
-    .titles {
-        margin: 20px 0 40px;
-        width: 30%;
-    }
-    
-    .links {
-        font-size: 18px;
-        font-weight: 600;
-        cursor: pointer;
-        color: #3d9da7;
-        text-decoration: none;
-        margin-bottom: 10px;
-    }
-    
-    .contents-container {
-        flex: 2;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: flex-start;
-        padding: 10px;
-        border-left: 1px solid #e0e0e0;
-    }
-    
-    .contents {
-        width: 70%; 
-        margin-bottom: 20px;
-        display: none;
-        color: #10100f;
-    }
-    
-    .contents ul li {
-        list-style: none;
-        margin: 10px 0;
-        font-weight: 500;
-        font-size: 16px;
-    }
-    
-    .contents ul li span {
-        color: rgb(188, 167, 76);
-        font-size: 16px;
-        font-weight: 600;
-    }
+#aboutme{
+    font-size: 25px;
+}
+.container {
+    display: flex;
+    align-items: flex-start;
+}
+
+.link-container {
+    flex: 1;
+}
+
+.titles {
+    margin: 20px 0 40px;
+    width: 30%;
+}
+
+.links {
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    color: #3d9da7;
+    text-decoration: none;
+    margin-bottom: 10px;
+}
+
+.contents-container {
+    flex: 2;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    padding: 10px;
+    border-left: 1px solid #e0e0e0;
+}
+
+.contents {
+    width: 70%; 
+    margin-bottom: 20px;
+    display: none;
+    color: #10100f;
+}
+
+.contents ul li {
+    list-style: none;
+    margin: 10px 0;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.contents ul li span {
+    color: rgb(188, 167, 76);
+    font-size: 16px;
+    font-weight: 600;
+}
 
 .contents.active-tab {
     display: block;
